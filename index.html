@@ -63,10 +63,18 @@
     </script>
     <script type="text/javascript">
         var qrcode = new QRCode("qrcode");
+        
+         var ref = firebase.database().ref("users");
+
+        ref.on("value", function(snapshot) {
+    snapshot.forEach(function(childSnapshot) {
+        var childData = childSnapshot.val();
+    console.log(childData.section);
+  });
 
         function makeCode () {      
-                        
-            qrcode.makeCode("Great");
+      
+            qrcode.makeCode(childData.section);
         }
 
         makeCode();
