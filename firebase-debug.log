@@ -1,0 +1,52 @@
+[debug] [2018-07-26T16:14:36.342Z] ----------------------------------------------------------------------
+[debug] [2018-07-26T16:14:36.343Z] Command:       /home/jyuvaraj03/.nvm/versions/node/v10.7.0/bin/node /usr/local/bin/firebase serve --only hosting
+[debug] [2018-07-26T16:14:36.343Z] CLI Version:   4.0.0
+[debug] [2018-07-26T16:14:36.343Z] Platform:      linux
+[debug] [2018-07-26T16:14:36.344Z] Node Version:  v10.7.0
+[debug] [2018-07-26T16:14:36.344Z] Time:          Thu Jul 26 2018 21:44:36 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:36.344Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-26T16:14:36.351Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-26T16:14:36.351Z] > authorizing via signed-in user
+[debug] [2018-07-26T16:14:36.352Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/parksmart-7e9ef  
+  
+ Thu Jul 26 2018 21:44:36 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:38.732Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T16:14:38.733Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/parksmart-7e9ef/tokens  
+  
+ Thu Jul 26 2018 21:44:38 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:40.547Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-26T16:14:40.550Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/parksmart-7e9ef  
+  
+ Thu Jul 26 2018 21:44:40 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:42.783Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/jyuvaraj03'...
+[info] 
+[debug] [2018-07-26T16:14:42.786Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 21:44:42 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:44.064Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[debug] [2018-07-26T16:14:44.077Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 21:44:44 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:45.028Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5004 is not available. Trying another port...
+[debug] [2018-07-26T16:14:45.032Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 21:44:45 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:45.987Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5008 is not available. Trying another port...
+[debug] [2018-07-26T16:14:45.990Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 21:44:45 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:46.944Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5012 is not available. Trying another port...
+[debug] [2018-07-26T16:14:46.948Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/708136015738/clients/_:getWebAppConfig  
+  
+ Thu Jul 26 2018 21:44:46 GMT+0530 (India Standard Time)
+[debug] [2018-07-26T16:14:48.548Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: psprj
+[info] ✔  hosting: Local server: http://localhost:5016
+
