@@ -31,6 +31,7 @@
     <script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
     <script>
       // Initialize Firebase
+      var database = firebase.database();  // i inserted here......
       var config = {
         apiKey: "AIzaSyCJAOEZqHso1GqS9S-ucrZtwauFDSwy4IE",
         authDomain: "parksmart-7e9ef.firebaseapp.com",
@@ -64,9 +65,20 @@
     <script type="text/javascript">
         var qrcode = new QRCode("qrcode");
 
-        function makeCode () {      
-                        
-            qrcode.makeCode("Great");
+        //childData.section is where i get section so it shud be passed as arg instead of great......remove the commented code...
+        
+        function makeCode () {          
+            /*var ref = firebase.database().ref("users");
+
+ref.on("value", function(snapshot) {
+  snapshot.forEach(function(childSnapshot) {
+    var childData = childSnapshot.val();
+    console.log(childData.section);
+  });
+});*/
+         qrcode.makeCode("Great")  
+            
+}");                                                                //inserted here <------------------------------
         }
 
         makeCode();
